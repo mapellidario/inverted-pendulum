@@ -1,0 +1,49 @@
+Thinkpad s531
+
+	RUN-1
+
+*Parametri*
+dt: 0.0001
+Steps: 1000000
+
+massa: 0.1
+lungh: 1
+baricentro: 0.5
+posizione perno: (0 ; 0) 
+velocità perno: (0 ; 0) 
+theta: 2.5708
+velocità theta: 2
+posizione estremo: (0.540302 ; 0.841471) 
+velocità estremo: (1.0806 ; 1.68294) 
+
+Gravity()
+CpuTime calculations	0.61
+RealTime calculations	0.615162
+massa: 0.1
+lungh: 1
+baricentro: 0.5
+posizione perno: (0 ; 0) 
+velocità perno: (0 ; 0) 
+theta: 2.5708
+velocità theta: 2
+posizione estremo: (0.540302 ; 0.841471) 
+velocità estremo: (1.0806 ; 1.68294) 
+
+Gravity1()
+CpuTime calculations	0.58
+RealTime calculations	0.570254
+massa: 0.1
+lungh: 1
+baricentro: 0.5
+posizione perno: (0 ; 0) 
+velocità perno: (0 ; 0) 
+theta: -69.2124
+velocità theta: -8.87628
+posizione estremo: (-0.0972017 ; -0.995265) 
+velocità estremo: (0.862789 ; 8.83424) 
+
+Rendering Grafico
+CpuTime calculations	0
+RealTime calculations	0.000134945
+
+Note: qui appare chiaro che l'approssimazione peggiore di Gravity1() ha importanti conseguenze!
